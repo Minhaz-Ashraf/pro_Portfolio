@@ -14,7 +14,7 @@ import {
 } from "react-icons/bs";
 import { FaYoutube } from "react-icons/fa6";
 import Bounce from "react-reveal/Bounce";
-import Design from "../../components/Design";
+
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -112,7 +112,7 @@ const Home = () => {
               </a>
             </div>
 
-            <Design />
+           
        
         </div>
         <Bounce top>
