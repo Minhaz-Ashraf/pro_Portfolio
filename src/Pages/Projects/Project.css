@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:wght@600&display=swap");
+
+.project {
+  margin: 90px 0 0 140px;
+}
+
+.project h1 {
+  font-weight: 500;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 13px;
+  margin-bottom: 45px;
+}
+
+#ads {
+  margin: 30px 0px 30px 0px;
+}
+
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background: #000000;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+}
+.project .card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.project .card img {
+  height: 150px;
+  width: 100%;
+}
+
+.project .card:hover{
+  transform: translateY(-8px);
+  transition: background 0.5s, transform 0.5s ;
+}
+
+.card-detail-badge {
+  background-color: #a434fa;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: rgb(255, 254, 254);
+  padding: 5px 10px;
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.card-image-overly {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.ad-btn {
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+}
+
+.ad-btn:hover {
+  background-color: white;
+  color: #a434fa;
+  background: transparent;
+  border: 2px solid #a434fa;
+  transition: all 0.2s ease;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+.more-btn {
+  text-decoration: none;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.btn-project,
+.btn-project *,
+.btn-project :after,
+.btn-project :before,
+.btn-project:after,
+.btn-project:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-project {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 400;
+  margin: 0 0 10% 40%;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #ffffff);
+  padding: 0;
+  width: 20% !important;
+  font-family: "DM Sans", sans-serif;
+}
+
+.btn-project:disabled {
+  cursor: default;
+}
+
+.btn-project:-moz-focusring {
+  outline: auto;
+}
+
+.btn-project svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-project [hidden] {
+  display: none;
+}
+
+.btn-project {
+  border-radius: 99rem;
+  border-width: 1px;
+  padding: 0.6rem 2rem;
+  z-index: 0;
+}
+
+.btn-project,
+.btn-project .text-container-project {
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-project .text-container-project {
+  display: block;
+  mix-blend-mode: difference;
+}
+
+.btn-project .text {
+  display: block;
+  position: relative;
+}
+
+.btn-project:hover .text {
+  -webkit-animation: move-up-alternate 0.3s forwards;
+  animation: move-up-alternate 0.3s forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.btn-project:after,
+.btn-project:before {
+  --skew: 0.2;
+  background: #ffffff;
+  content: "";
+  display: block;
+  height: 102%;
+  left: calc(-50% - 50% * var(--skew));
+  pointer-events: none;
+  position: absolute;
+  top: -104%;
+  transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));
+  transition: transform 0.2s ease;
+  width: 100%;
+}
+
+.btn-project:after {
+  --progress: 0%;
+  left: calc(50% + 50% * var(--skew));
+  top: 102%;
+  z-index: -1;
+}
+
+.btn-project:hover:before {
+  --progress: 100%;
+}
+
+.btn-project:hover:after {
+  --progress: -102%;
+}
+
+
+
+#dark .project h1 {
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .project h1{
+    padding-top: 50px  !important;
+  }
+
+  .project p{
+    font-size: 12px;
+  }
+
+  .project .mg {
+    margin-bottom: 39px ;
+  }
+  .ad-btn{
+    font-size: 12px;
+    width: 35%;
+  }
+  .btn-project{
+    width: 45% !important;
+    font-size: 13px;
+    margin-left: 27%;
+  }
+}

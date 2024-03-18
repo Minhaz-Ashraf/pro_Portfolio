@@ -1,0 +1,33 @@
+.navbar-profile-pic img {
+    border-radius: 90px;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .nav-item {
+    color: white;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  .nav-link {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-link svg {
+    margin-right: 10px;
+    font-size: 25px;
+  }
+  .nav-link:hover {
+    color: #a434fa;
+  }
+  .nav-link .active {
+    color: #a434fa;
+    border-left: 3px solid #a434fa;
+    padding-left: 10px;
+    text-decoration: none;
+  }

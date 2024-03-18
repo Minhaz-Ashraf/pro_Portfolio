@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:wght@600&display=swap");
+.skill {
+    padding-left: 130px;
+    margin-top: 25px;
+  }
+
+  .skill p{
+    margin-top: 13px;
+    margin-bottom: 45px;
+    margin-left: 18rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .skill h1 {
+    font-weight: 500;
+    color: #000000;
+    padding-left: 38% !important;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+
+  .skill .card {
+   cursor: pointer;
+ margin-left: 110px !important;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+   width: 75%;
+   
+
+  }
+  
+  .skill .skill-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  .skill .card:hover {
+        
+    background-color: #a434fa;
+    color: white;
+  
+
+  }
+  #dark .skill hr{ 
+    color: aliceblue;
+    }
+#dark .skill h1{ 
+color: aliceblue;
+}
+
+
+
+
+
+
+  @media (max-width: 600px) {
+    .skill {
+      padding: 0;
+      margin: 0;
+      margin-top: 30px;
+    }
+  .skill h1{
+   padding: 50px 0 0 25px !important;
+  }
+    .skill hr {
+      margin-left: 50px;
+      width: 280px;
+    }
+    .skill p{
+      margin-left: 4px;
+      text-align: center;
+      font-size: 12px;
+    }
+    .skill .card{
+      margin: 0  0 7px 40px !important;
+    
+      align-items: center;
+    }
+  }

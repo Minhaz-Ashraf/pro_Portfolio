@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:wght@600&display=swap");
+.testo{
+    height: 550px;
+    margin:  0 0 0 150px;
+    padding: 20px;
+border-radius: 8px;
+    overflow: hidden;
+ background-image: url('../../assets/img/testobg.avif');
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ background-size: cover;
+}
+
+.testo-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testo-content h1{
+    font-weight: 500;
+    margin: -90% 0 0 49px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.testo-content p{
+    text-align:left;
+    color: #fff;
+    margin-left: 55px;
+    margin-top: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* swiper */
+.testoSwiper{
+    margin-top: 85px;
+    width: 70% !important ;
+    height: 340px;
+}
+.testo-one, .testo-two,.testo-three,.testo-four, .testo-five{
+    background-color: #fff;
+  
+}
+.testo-one img, .testo-two img,.testo-three img,.testo-four img, .testo-five img{
+    margin-top: 13px ;
+    width: 30%;
+    height: 30% ;
+    border-radius: 100%;
+}
+.testo-one h6, .testo-two h6,.testo-three h6,.testo-four h6, .testo-five h6{
+margin-top: -35px   !important;
+}
+.testo-one p, .testo-two p,.testo-three p,.testo-four p, .testo-five p{
+    font-weight: 400;
+    margin-top: -17px;
+}
+@media (max-width: 600px) {
+.testo{
+    margin:  50px 0 0 0;
+    background-image: url(../../assets/img/testomob.avif);
+   height: 800px;
+}
+.testo-content h1{
+    margin: 145px 0 0 -10px;
+    
+}
+.testo-content p{
+    margin:  10px 0 0 10px;
+}
+.testo-one img, .testo-two img,.testo-three img,.testo-four img, .testo-five img{
+    width: 30%;
+    height: 26%;
+}
+.testo-one p, .testo-two p,.testo-three p,.testo-four p, .testo-five p{
+    margin-top: -5px;
+
+}
+.testo-one h6, .testo-two h6,.testo-three h6,.testo-four h6, .testo-five h6{
+margin-top: -35px  !important;
+}
+.testoSwiper{
+    height: 330px;
+    width: 80%  !important;
+}
+}

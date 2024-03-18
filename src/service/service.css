@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:wght@600&display=swap");
+
+.service-container{
+    margin: 70px 0px 0px;
+    padding: 20px;
+    margin-left: 13%;
+    overflow: hidden;
+}
+.service-container h1{
+  font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: #000000;
+        margin-right: 10px;
+   
+      
+      
+}
+
+.service-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-content p{
+    text-align: left;
+    padding: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+/* swipper */
+.mySwiper {
+
+    width: 65% !important ;
+    height: 370px;
+  }
+  
+  .swiper-slide {
+    height: 100% !important ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  
+
+  
+  .one {
+    background-color: #7e0cd4;
+  }
+  
+  .two{
+    background-color: rgb(8, 165, 185);
+  }
+  
+  .three {
+    background-color: rgb(180, 10, 47);
+  }
+  
+  .four  {
+    background-color: rgb(35, 99, 19);
+  }
+  
+  .five {
+    background-color: rgb(4, 96, 235);
+  }
+  
+  .six{
+    background-color: rgb(218, 12, 218);
+  }
+  
+  .seven {
+    background-color: rgb(54, 94, 77);
+  }
+  .swiper-slide{
+    padding-top: 10px;
+    text-align: center;
+  }
+  .swiper-slide p{
+    margin-top: 5px;
+    text-align: center;
+   font-weight: 400;
+   font-size: 15px;
+   padding: 30px;
+   font-family: 'DM Sans', sans-serif;
+  }
+  .swiper-slide li{
+    text-align: justify;
+  }
+  #dark .service-container h1{
+    color:#ffffff;
+  }
+  @media (max-width: 600px) {
+
+
+    .service-container{
+      margin: 70px 0 0 0;
+    }
+    .service-container h1{
+margin: 0 0 0 0  !important;
+font-size: 30px  ;
+    }
+    .service-content p{
+      padding: 0 0px 0 0px  !important;
+      margin: 20px 0 0 -12px ;
+    }
+    .mySwiper{
+      width: 75%  !important;
+      height: 300px;
+      margin-top: 35px;
+
+    }
+    .swiper-slide{
+      font-size: 18px;
+    }
+    .swiper-slide p{
+      font-size: 13px;
+      margin-top: -15px;
+    }
+  }
